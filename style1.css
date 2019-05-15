@@ -1,0 +1,179 @@
+
+body{
+	background: url('../img/background2.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+    padding-bottom: 700px;
+}
+
+section
+{
+  text-align: center;
+  display: inline-block;
+
+}
+ol
+{
+      display: inline-block;
+}
+
+  li
+	{
+    text-decoration: none;
+		display: inline;
+    display: block;
+    display: inline-block;
+	}
+
+  li a
+	{
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 9px 124.5px;
+		text-decoration: none;
+
+	}
+
+	li a:hover
+	{
+		background-color: 	#d77d00;
+		color:white;
+	}
+  
+
+  ul
+	{
+    margin-right: -6.8px;
+    margin-top: -162px;
+		list-style-type: none;
+		margin-left: 186px;
+		padding: 0;
+		background-color: #191970;
+    float:center;
+
+	}
+
+
+
+  i /* culoare text footer*/
+  {
+    color:white;
+
+  }
+
+  p
+   {
+ 	  text-align: center;
+ 	  font-size: 22px;
+   }
+
+   footer
+   {
+     font-size: 12px;
+     border-top: 2px solid #000;
+     text-align: center;
+     position:absolute;
+     bottom:0;
+     width:100%;
+     height:25px;   /* Height of the footer */
+     background:#191970;
+   }
+
+  h1{
+  	color: #d77d00;
+  	font-size: 30px;
+  }
+  article
+  {
+
+    margin-top: 130px;
+    text-align: center;
+
+  }
+  .button {
+	background-color: #d77d00;
+    border: 1px solid #b36800;
+    border-radius: 3px;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+}
+.card
+{
+  display: inline-block;
+  margin-left: 240px;
+  margin-top: 20px;
+  margin-right: -120px;
+}
+#anunt
+{
+  display: inline-block;
+  border: 1px solid #b36800;
+}
+
+---------------------------------------
+* {
+ box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+ width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ margin-top: 6px;
+ margin-bottom: 16px;
+ resize: vertical;
+}
+
+input[type=submit] {
+ background-color: #4CAF50;
+ color: white;
+ padding: 12px 20px;
+ border: none;
+ cursor: pointer;
+}
+
+input[type=submit]:hover {
+ background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+ border-radius: 5px;
+ background-color: #f2f2f2;
+ padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+ float: left;
+ width: 50%;
+ margin-top: 6px;
+ padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+ aside
+ {
+	 float:right;
+	 margin-right: 85px;
+
+ }
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+ .column, input[type=submit] {
+	 width: 100%;
+	 margin-top: 0;
+ }
+}

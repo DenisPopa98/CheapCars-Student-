@@ -1,0 +1,50 @@
+@media screen and (max-width: 480px) {
+
+ul
+{
+
+  margin-top: -162px;
+  list-style-type: none;
+  margin-left: 182px;
+  margin-right: 10px;
+  padding: 0;
+  background-color: #191970;
+  text-decoration: none;
+
+
+}
+
+li a
+{
+  text-align: left;
+  margin-left: -96px;
+  text-decoration: none;
+
+}
+
+
+
+footer
+
+{
+  position: fixed;
+}
+
+.card
+{
+  display: list-item;
+  decoration: none;
+  margin-left: 40px;
+  margin-top: 20px;
+
+}
+
+
+img
+{
+  margin-left: 15px;
+
+}
+
+
+}
